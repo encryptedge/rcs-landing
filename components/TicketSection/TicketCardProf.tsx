@@ -1,7 +1,14 @@
 import React from 'react'
 import Button from '../ui/Button'
+import toast from 'react-hot-toast'
 
-function TicketCard() {
+function TicketCard({
+  setTicketType,
+  setTicketBookingOpen
+}: {
+  setTicketType: (val: string) => void,
+  setTicketBookingOpen: (val: boolean) => void
+}) {
   return (
       <div className="card w-full max-w-sm bg-white text-black p-5">
           <p className="font-bold text-4xl">
@@ -22,7 +29,13 @@ function TicketCard() {
               </div>
           </div>
           <div className="button mt-8">
-              <Button size={'full'}>Coming Soon</Button>
+              <Button size={'full'} onClick={()=> {
+                    setTicketType('professional_pass')
+                    setTicketBookingOpen(true)
+                    toast.success('Professional Pass Selected', {
+                        position: 'top-right',
+                    });
+                }} className='bg-red-950'>Rs. 500</Button>
           </div>
       </div>
   )

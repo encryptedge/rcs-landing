@@ -10,6 +10,7 @@ import { PlayCircleIcon, PlusCircleIcon } from '@heroicons/react/24/outline'
 import Organisers from '@/components/Organisers'
 import RegisterDialog from '@/components/RegisterDialog'
 import { useState } from 'react'
+import BookTicketDialog from '@/components/BookTicketDialog';
 
 export default function Home() {
     const [registerOpen, setRegisterOpen] = useState(false)
