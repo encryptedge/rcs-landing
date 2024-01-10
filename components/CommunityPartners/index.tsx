@@ -4,7 +4,7 @@ import communityPartners from "@/config/communitypartners.json";
 
 function CommunityPartners() {
     return (
-        <section className="lg:h-screen max-w-7xl mx-auto px-2 sm:px-4 lg:px-8 pt-28">
+        <section className="lg:min-h-screen max-w-7xl mx-auto px-2 sm:px-4 lg:px-8 pt-28">
             <h2 className="text-5xl lg:text-8xl text-primary font-bold">Community Partners</h2>
             <div className="list grid grid-cols-2 lg:grid-cols-3 w-full gap-8 lg:gap-16 p-8 lg:p-10 max-w-4xl mx-auto">
                 {communityPartners.map((member) => (

@@ -2,7 +2,7 @@ import React from 'react'
 
 function PerksSection() {
     return (
-        <section className="flex flex-col lg:h-screen justify-between pt-24">
+        <section className="flex flex-col lg:min-h-screen justify-between pt-24">
             <h2 className='mx-auto text-5xl font-medium my-10 text-center'>
                 Prepare for the ultimate <br /> test of
                 <span className="text-primary"> Cyber Prowess</span>
