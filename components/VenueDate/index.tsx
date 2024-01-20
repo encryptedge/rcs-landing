@@ -28,10 +28,10 @@ function VenueDate() {
                     <p className="mb-3 text-3xl text-primary font-medium">
                         Venue
                     </p>
-                    <p className="text-6xl font-bold">
+                    <a href='https://maps.app.goo.gl/WEPbZsMdRL4xV3o78'><p className="text-6xl font-bold">
                         Lovely Professional University, <br />
                         Jalandhar
-                    </p>
+                    </p></a>
                 </div>
             </div>
         </section>

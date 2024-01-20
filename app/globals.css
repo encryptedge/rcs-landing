@@ -48,21 +48,21 @@ body {
 }
 
 .venue-back {
-    background-image: url("/wow-back.jpg");
+    background-image: url("/wow-back.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .rcs-back-1 {
-    background-image: url("/rcs-back1.jpg");
+    background-image: url("/rcs-back1.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .rcs-back-2 {
-    background-image: url("/rcs-back2.jpg");
+    background-image: url("/rcs-back2.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

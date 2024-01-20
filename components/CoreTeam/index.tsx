@@ -10,11 +10,12 @@ function CoreTeam() {
                 {coreTeam.map((member) => (
                     <div key={member.name} className="flex flex-col items-center lg:px-5">
                         <div className="w-full aspect-square border-primary border-2 rounded-full overflow-hidden">
-                            <img
+                           <a href={member.linkedin}> <img
                                 src={member.img}
                                 alt=""
                                 className="w-full h-full object-cover"
                             />
+                            </a>
                         </div>
                         <p className="name text-md lg:text-lg mt-3 mb-2">{member.name}</p>
                         <div className="links flex gap-4">

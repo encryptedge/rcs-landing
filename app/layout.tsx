@@ -34,7 +34,7 @@ export const metadata: Metadata = {
         canonical: '/'
     },
     openGraph: {
-        images: '/banner.png',
+        images: '/banner.webp',
         type: 'website',
         locale: 'en_US',
         description:
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
         title: 'RCS CTF 2024',
         description: 'The "Republic of Cyber Sentinels CTF 2024" (RCSCTF24) is a two-day Capture the Flag (CTF) competition organized by EncryptEdge, scheduled to take place at Lovely Professional University (LPU). The event is set around the theme of the Republic Day of India and is planned for January 26th to 27th, 2024, spanning 24 hours. It is an offline event, held on the LPU campus, and allows teams with a maximum of four members each. Students from universities across India, including LPU students, are invited to participate in this dynamic competition.',
         creator: '@Encrypt_Edge',
-        images: ['https://rcs.encryptedge.in/banner.png'],
+        images: ['https://rcs.encryptedge.in/banner.webp'],
     },
     category: 'technology'
 }
