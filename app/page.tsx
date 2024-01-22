@@ -92,10 +92,10 @@ export default function Home() {
             <PerksSection />
             <VenueDate />
             <TicketSection />
-            {/* <SponsorSection /> */}
             <CoreTeam />
             <RersourcePersons />
             <CommunityPartners />
+            <SponsorSection />
             <Organisers />
             <RegisterDialog open={registerOpen} setOpen={setRegisterOpen} />
         </main>

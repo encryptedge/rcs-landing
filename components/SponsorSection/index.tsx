@@ -1,32 +1,35 @@
-import React from 'react'
-import SponsorsRow from './SponsorsRow'
-import sponsorsData from '@/config/sponsors.json'
-
-type Sponsor = {
-    name: string
-    logo: string
-    url: string
-}
-
-type SponsorCategory = {
-    category: string
-    sponsors: Sponsor[]
-}
+import React from 'react';
+import { Linkedin, Globe } from 'react-feather';
+import sponsors from "@/config/sponsors.json";
 
 function SponsorSection() {
     return (
         <section className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8 pt-28">
-            <h2 className='font-bold text-5xl text-center lg:text-8xl lg:text-left text-primary '>Our Sponsors</h2>
-                {sponsorsData.map(
-                    (sponsorCategory: SponsorCategory, index: number) => (
-                        <div key={index} className="mt-10">
-                            <h2 className="text-4xl lg:text-6xl text-center font-semibold">{sponsorCategory.category}</h2>
-                            <SponsorsRow sponsors={sponsorCategory.sponsors} />
+            <h2 className="text-5xl lg:text-8xl text-primary font-bold">Sponsors</h2>
+            <div className="list grid grid-cols-2 lg:grid-cols-3 w-full gap-8 lg:gap-16 p-8 lg:p-10 max-w-4xl mx-auto">
+                {sponsors.map((member) => (
+                    <div key={member.name} className="flex flex-col items-center lg:px-5">
+                        <div className="w-full aspect-square border-primary border-2 rounded-full overflow-hidden">
+                        <a href={member.url}><img
+                                src={member.logo}
+                                alt=""
+                                className="w-full h-full object-cover"
+                            /></a>
                         </div>
-                    )
-                )}
+                        <p className="name text-md lg:text-lg mt-3 mb-2">{member.name}</p>
+                        <div className="links flex gap-4">
+                            <a href={member.linkedin}>
+                                <Linkedin width={28} height={28} />
+                            </a>
+                            <a href={member.url}>
+                                <Globe width={28} height={28} />
+                            </a>
+                        </div>
+                    </div>
+                ))}
+            </div>
         </section>
-    )
+    );
 }
 
-export default SponsorSection
+export default SponsorSection;
