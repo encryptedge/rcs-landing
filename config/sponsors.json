@@ -1,18 +1,20 @@
 [
   {
-    "category": "Platinum Sponsors",
-    "sponsors": [
-      { "name": "Popsicle", "logo": "./popsql.png", "url": "https://popsql.com" },
-      { "name": "More Popsicles", "logo": "./popsql.png", "url": "https://popsql.com" },
-      { "name": "Even More Popsicles", "logo": "./popsql.png", "url": "https://popsql.com" }
-    ]
+    "name": "EC Council",
+    "logo": "./sponsors-eccouncil-square.png",
+    "url": "https://www.eccouncil.org/",
+    "linkedin": "https://www.linkedin.com/company/ec-council/"
   },
   {
-    "category": "Gold Sponsors",
-    "sponsors": [
-      { "name": "Pppp Popsicles!", "logo": "./popsql.png", "url": "https://popsql.com" },
-      { "name": "Popsicles!!!!", "logo": "./popsql.png", "url": "https://popsql.com" },
-      { "name": "Nevermind, it's PopSQL", "logo": "./popsql.png", "url": "https://popsql.com" }
-    ]
+    "name": "Quick Heal",
+    "logo": "./sponsors-quickheal.png",
+    "url": "https://www.quickheal.co.in/",
+    "linkedin": "https://www.linkedin.com/company/quick-heal-technologies-pvt--ltd-"
+  },
+  {
+    "name": "Secure Hacks",
+    "logo": "./sponsors-securehacks.jpeg",
+    "url": "https://www.securehack.net/",
+    "linkedin": "https://www.linkedin.com/company/securehack"
   }
 ]
